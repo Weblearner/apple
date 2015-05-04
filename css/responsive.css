@@ -1,0 +1,478 @@
+@media (min-width: 1200px){
+
+
+}
+
+
+@media (max-width: 1200px){
+    /* 4 columns, percentage width */
+    .gallery .item-4col,
+    .gallery .grid-sizer-4col {
+        width: 33.3333%;/* change here the column width */
+    }
+
+    .gallery .item-5col,
+    .gallery .grid-sizer-5col {
+        width: 33.3333%;/* change here the column width */
+    }
+
+
+    .gallery .item-4col-gutter,
+    .gallery .grid-sizer-4col-gutter{
+        width: 44%;/* change here the column width */
+    }
+
+    .gallery .item-4col-gutter{
+        margin-bottom:3%;
+        margin-left:3%;
+    }
+
+    .gutter-sizer-4col{
+        width:3%;
+    }
+
+
+
+
+
+}
+
+
+/*Notebooks and Small Laptops*/
+@media (min-width: 1025px){
+
+
+
+
+}
+
+
+
+
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1024px){
+
+    .featureBox{
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+
+    .featureBox:first-child{
+        text-align: center;
+    }
+
+
+    .featuredTitle {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+
+    .featuredNumbersWrapper{
+
+        float: none;
+        margin:0 auto;
+        padding-bottom: 30px;
+    }
+
+    .featureBox a{
+        text-align:center;
+        margin: 0 auto;
+    }
+
+    /* 4 columns, percentage width */
+    .gallery .item-4col,
+    .gallery .grid-sizer-4col {
+        width: 50%;/* change here the column width */
+    }
+
+
+    .gallery .item-5col,
+    .gallery .grid-sizer-5col {
+        width: 50%;/* change here the column width */
+    }
+
+
+
+    .gallery .item-2col-gutter,
+    .gallery .grid-sizer-2col-gutter{
+        width: 44%;/* change here the column width */
+    }
+
+    .gallery .item-2col-gutter{
+        margin-bottom:3%;
+        margin-left:3%;
+    }
+
+    .gutter-sizer-2col{
+        width:3%;
+    }
+
+
+    .gallery .item-3col-gutter,
+    .gallery .grid-sizer-3col-gutter{
+        width: 44%;/* change here the column width */
+    }
+
+    .gallery .item-3col-gutter{
+        margin-bottom:3%;
+        margin-left:3%;
+    }
+
+    .gutter-sizer-3col{
+        width:3%;
+    }
+
+
+
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px){
+
+
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 992px){
+
+
+
+}
+
+/*Medium Tablets */
+@media (max-width: 900px){
+
+}
+
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px){
+
+    .triggerWrapper {
+        float:right
+
+    }
+
+    .burger_deluxe {
+        margin-top: 16px;
+    }
+
+
+    .featuredNumbersWrapper {
+         width: 100%;
+        float: right;
+        padding-bottom: 80px;
+    }
+
+
+    .teamMember2{
+        margin-bottom:40px;
+    }
+
+    /* 4 columns, percentage width */
+    .gallery .item-4col,
+    .gallery .grid-sizer-4col {
+        width: 50%;/* change here the column width */
+    }
+
+
+    .gallery .item-2col-gutter,
+    .gallery .grid-sizer-2col-gutter{
+        width: 100%;/* change here the column width */
+    }
+
+    .gallery .item-2col-gutter{
+        margin-bottom:5%;
+        margin-left:0;
+    }
+
+    .gutter-sizer-2col{
+        width:0;
+    }
+
+    .gallery .item-3col-gutter,
+    .gallery .grid-sizer-3col-gutter{
+        width: 100%;/* change here the column width */
+    }
+
+    .gallery .item-3col-gutter{
+        margin-bottom:5%;
+        margin-left:0%;
+    }
+
+    .gutter-sizer-3col{
+        width:0%;
+    }
+
+    .gallery .item-4col-gutter,
+    .gallery .grid-sizer-4col-gutter{
+        width: 100%;/* change here the column width */
+    }
+
+    .gallery .item-4col-gutter{
+        margin-bottom:5%;
+        margin-left:0;
+    }
+
+    .gutter-sizer-4col{
+        width:0;
+    }
+
+    #charts .timerWrapper:nth-child(2):before{
+        display:none;
+    }
+
+    .newsSlider p.serif {
+        padding: 0px;}
+    .newsSlider .btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #footerBottom > div > div:nth-child(1) > h6{
+        text-align:center;
+        padding-bottom:20px;
+    }
+
+    #footerBottom > div > div:nth-child(3){
+        text-align:center;
+        padding-top:30px;
+    }
+
+    #contactPageContent .box-50{
+        width:100%;
+    }
+
+    .navbar-default {
+        padding: 10px 10px;
+        padding-right: 15px;
+    }
+
+    .navbar-brand {
+        padding: 8px 15px;
+
+    }
+
+    .menu-collapse{
+        width:100%;
+    }
+
+
+}
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 767px) {
+
+
+}
+
+/* iphone 6 and big screen (landscape) ----------- */
+@media only screen
+and (max-width : 736px)
+and (orientation : landscape) {
+
+    .navbar-brand {
+        padding: 8px 0px;
+    }
+
+    .triggerWrapper {
+        float:right
+
+    }
+
+    .burger_deluxe {
+        margin-top: 16px;
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+        height: 2px;
+        width: 30px;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar-default {
+        padding:0;
+        /* padding-right: 15px; */
+    }
+
+    h1.introHeading {
+        font-size: 36px;
+        line-height: 24px;
+        top: 0%;
+    }
+
+    .introBorderSection h2{
+        letter-spacing: 2px;
+    }
+
+    .introLogo {
+        max-width: 60px;
+        margin-left: -30px;
+    }
+
+    .introBorderSection h2:before{
+        display:none;
+    }
+
+    .introLogo2 {
+        display:none;
+    }
+
+    .overlay ul li a{
+        font-size:20px;
+    }
+
+}
+
+/* smaller phones  (landscape) ----------- */
+@media only screen
+and (max-width : 568px)
+and (orientation : landscape) {
+
+
+    .introLogo {
+        display:none;
+    }
+
+    .introLogo2 {
+        display:none;
+    }
+
+}
+
+
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px){
+    #aboutPageContent1 .box-50{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+
+}
+
+@media screen and (max-width: 600px) and (orientation : landscape){
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    .navbar-default{
+        padding:0;
+    }
+
+
+    .gallery .item-2col,
+    .gallery .grid-sizer-2col {
+        width: 100%;/* change here the column width */
+    }
+
+    .gallery .item-3col,
+    .gallery .grid-sizer-3col {
+        width: 100%;/* change here the column width */
+    }
+
+    /* 4 columns, percentage width */
+    .gallery .item-4col,
+    .gallery .grid-sizer-4col {
+        width: 100%;/* change here the column width */
+    }
+
+
+
+    .gallery .item-5col,
+    .gallery .grid-sizer-5col {
+        width: 100%;/* change here the column width */
+    }
+
+    #charts .timerWrapper:before{
+        display:none;
+    }
+}
+
+/*google nexus ish*/
+@media screen and (max-width: 480px) {
+
+
+}
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px){
+
+
+}
+
+/*iPhone Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+
+    .navbar-brand {
+        padding: 8px 0px;
+    }
+
+    .triggerWrapper {
+        float:right
+
+    }
+
+    .burger_deluxe {
+        margin-top: 16px;
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+        height: 2px;
+        width: 30px;
+    }
+
+    h1.introHeading {
+        font-size: 36px;
+        line-height: 24px;
+        top: -10%;
+    }
+
+    .introBorderSection h2{
+        letter-spacing: 2px;
+    }
+
+    .introLogo {
+        max-width: 60px;
+        margin-left: -30px;
+    }
+
+    .introTextHeading2 h1 {
+        font-size: 45px;
+        line-height: 42px;
+
+        margin-bottom: 20px;
+
+    }
+
+    .introTextHeading2 h6.minimal {
+        padding-top: 20px;
+    }
+
+    .introTextHeading3 h1 {
+        font-size: 36px;
+        line-height: 36px;
+
+    }
+
+    .introTextHeading3 h6 {
+        padding-top: 30px;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .introLogo2{
+        max-width:60px;
+    }
+}
